@@ -173,7 +173,7 @@ a:active {
 .power-point-box {
     position: relative;
     width: 830px;
-    margin: 140px auto;
+    margin: 100px auto;
 }
 .power-point-img {
     width: 100%;
@@ -208,22 +208,27 @@ a:active {
         width: 220px;
         height: 420px;
     }
+    .power-point-title {
+        top: 45px;
+    }
 }
 /* 视频演示模块样式结束 */
 
 /* 内容信息展示部分 */
 .exhibition {
     position: relative;
+    padding: 60px;
+    background-color: #F5F5F9;
 }
 .exhibition-title {
     position: absolute;
     left: 50%;
-    top: 125px;
+    top: 22%;
     transform: translateX(-50%);
     width: 100%;
 }
 .exhibition-img {
-    width: 100%;
+    width: 100%; 
 }
 
 .material {
@@ -249,6 +254,9 @@ a:active {
     }
     .material-img {
         width: 680px;
+    }
+    .material-title {
+        top: 135px;
     }
 }
 /* 内容信息展示部分结束 */
