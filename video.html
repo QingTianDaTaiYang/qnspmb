@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>全能视频模板</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+    <!-- 手机端 -->
+    <div class="iphone-box" id="iphone-box">
+        <img src="img/iphone-header@2x.png" class="iphone-header">
+        <img src="img/iphone-PowerPoint@2x.png" class="iphone-power-point">
+        <div class="demo-video">
+            <img src="img/rectangle@2x.png" class="demo-video-title">
+            <video src="img/全能视频模版_2.mp4" class="demo-video-mp4" controls></video>
+        </div>
+        <img src="img/iphone-exhibition@2x.png" class="iphone-exhibition">
+        <img src="img/iphone-material@2x.png" class="iphone-material">
+        <div class="iphone-download" onclick="download()">
+            <img src="img/Rectangle-26@2x.png" class="download-background-img">
+            <img src="img/download-button.png" class="download-button-img">
+            <!-- <div class="download-bottom-div"></div> -->
+        </div>
+        <!-- 蒙层 -->
+        <div id="mask" style="display: none" class="mask">
+            <img src="img/wx_img.png" class="wx-img">
+        </div>
+    </div>
+
+    <!-- PC端 -->
+    <div class="pc-box" id="pc-box">
+        <!-- 导航条 -->
+        <div class="nav">
+            <a class="nav-box" href="#sy">首页</a>
+            <a class="nav-box" href="#gnjs">功能介绍</a>
+            <a class="nav-box" href="#ys">优势</a>
+            <a class="nav-box" href="#wz">文章</a>
+        </div>
+        <!-- 头部 -->
+        <div class="header" id="sy">
+            <image class="header-background-img" src="img/signup_bg@2x.png"></image>
+            <div class="header-box">
+                <div class="header-img-box">
+                    <image class="img-box-img" src="img/title@2x.png"></image>
+                    <div class="download-box">
+                        <div class="download-code"></div>
+                        <div class="download-button">
+                            <div class="download-button-ios">IOS 版</div>
+                            <div class="download-button-android">Android 版</div>
+                        </div>
+                    </div>
+                </div>
+                <image class="header-box-img" src="img/iphone@2x.png">
+                    
+                </image>
+            </div>
+        </div>
+
+        <!-- 模板丰富、制作简单 -->
+        <div class="template" id="gnjs">
+            <img src="img/title_template.png" class="template-img">
+            <div class="template-title">
+                <p class="template-title-bold">模板丰富 &nbsp; 制作简单</p>
+                <p class="template-title-hint">如企业宣传片、婚礼视频、宝宝成长记录、生日祝福，以及同学聚会、求婚表白、毕业、旅行视频电子相册</p>
+            </div>
+        </div>
+
+        <!-- 一键换图、专业编辑 -->
+        <div class="power-point">
+            <div class="power-point-box">
+                <img src="img/PowerPoint@2x.png" class="power-point-img" alt="">
+                <video src="img/全能视频模版_2.mp4" class="power-point-video" controls></video>
+            </div>
+            <div class="power-point-title">
+                <p class="template-title-bold">一键换图 &nbsp; 专业编辑</p>
+                <p class="template-title-hint">一款强大的视频制作软件，任何人都能快速上手，选择视频模板将自己的图片置换上去即可成为自己的视频</p>
+                <p class="power-title-hint">让视频制作如此简单。支持各种电子相册视频编辑功能，智能化操作节省时间，任何人都能使用</p>
+            </div>
+        </div>
+
+        <!-- 多款模板、分享灵感 -->
+        <div class="exhibition" id="ys">
+            <img src="img/exhibition@2x.png" class="exhibition-img">
+            <div class="exhibition-title">
+                <p class="template-title-bold">多款模版 &nbsp; 分享灵感</p>
+                <p class="template-title-hint">专业团队精心设计的视频模板，使用它们您也可以立刻做出惊艳的视频，调整视频色温</p>
+                <p class="power-title-hint">色调、饱和度等参数，修复拍摄期间产生的曝光问题，多款滤镜让素材呈现更多风格</p>
+            </div>
+        </div>
+
+        <!-- 特效素材、迸发创意 -->
+        <div class="material">
+            <img src="img/material@2x.png" class="material-img">
+            <div class="material-title">
+                <p class="template-title-bold">特效素材 &nbsp; 迸发创意</p>
+                <p class="template-title-hint">丰富的创意特效素材供您使用，让您的视频画面炫酷，告别单一的视频制作模板</p>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="footer">
+            <img src="img/footer@2x.png" class="footer-img">
+            <div class="footer-box">
+                <div class="footer-box-text">
+                    现在开始下载全能视频模版吧！
+                </div>
+                <div class="footer-box-content">
+                    <div class="footer-download">
+                        <div class="footer-download-ios">
+                            <img src="img/icon_ios@2x.png" class="download-img">
+                            <div class="download-text">IOS 版</div>
+                        </div>
+                        <div class="footer-download-android">
+                            <img src="img/icon_android@2x.png" class="download-img">
+                            <div class="download-text download-text-android">Android 版</div>
+                        </div>
+                    </div>
+                    <div class="footer-code"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页脚内容介绍 -->
+        <div class="footer-content">
+            <div class="explain">
+                <div class="explain-nav">
+                    <a class="explain-nav-box" href="#sy">
+                        <img src="img/icon_home@2x.png" class="explain-nav-icon">
+                        <div class="explain-nav-text">首页</div>
+                    </a>
+                    <a class="explain-nav-box" href="#gnjs">
+                        <img src="img/icon_more@2x.png" class="explain-nav-icon">
+                        <div class="explain-nav-text">功能介绍</div>
+                    </a>
+                    <a class="explain-nav-box" href="#ys">
+                        <img src="img/icon_good@2x.png" class="explain-nav-icon">
+                        <div class="explain-nav-text">优势</div>
+                    </a>
+                    <a class="explain-nav-box" href="#wz">
+                        <img src="img/icon_article@2x.png" class="explain-nav-icon">
+                        <div class="explain-nav-text">文章</div>
+                    </a>
+                </div>
+                <div class="explain-text">
+                    <img src="img/video_logo@2x.png" class="text-img">
+                    <p class="text-p">全能视频模板一款强大的视频制作，电子相册，音乐视频制作软件无需任何基础轻松做出做出惊艳的视频，可快速掌握，轻松拼接合并照片，添加字幕,背景音乐制作电子相册视频
+                            是您视频制作的好帮手。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页脚条 -->
+        <div class="nav-footer">
+            © 2019 全能视频模板 All Rights Reserved.
+        </div>
+    </div>
+
+    <script src="video.js"></script>
+</body>
+</html>
